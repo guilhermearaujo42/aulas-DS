@@ -14,7 +14,7 @@ CREATE TABLE `Tutor` (
   `id` uuid PRIMARY KEY,
   `nome` varchar(255) NOT NULL,
   `telefone` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
+  `email` varchar(255) UNIQUE NOT NULL,
   `endereco` varchar(255) NOT NULL,
   `cpf` varchar(255) UNIQUE NOT NULL
 );
