@@ -7,7 +7,7 @@ CREATE TABLE `Animal` (
   `sexo` varchar(255) NOT NULL,
   `cor` varchar(255) NOT NULL,
   `porte` varchar(255) NOT NULL,
-  `dono_animal` varchar(255)
+  `dono_animal` varchar(255) NOT NULL,
 );
 
 CREATE TABLE `Tutor` (
