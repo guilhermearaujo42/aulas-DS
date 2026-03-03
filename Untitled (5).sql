@@ -35,7 +35,8 @@ CREATE TABLE `Consultas` (
   `data` date NOT NULL,
   `hora` datetime NOT NULL,
   `sintomas_observados` varchar(255) NOT NULL,
-  `diagnostico` vachar NOT NULL
+  `diagnostico` vachar NOT NULL,
+  `observacoes` vachar NOT NULL
 );
 
 CREATE TABLE `Tratamentos` (
