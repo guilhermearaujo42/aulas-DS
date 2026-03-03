@@ -23,8 +23,8 @@ CREATE TABLE `Medicos_veterinarios` (
   `id` uuid PRIMARY KEY,
   `nome` varchar(255) NOT NULL,
   `crmv` varchar(255) UNIQUE NOT NULL,
-  `especialidade` varchar(255) NOT NULL,
-  `telefone` varchar(255) NOT NULL,
+  `especialidade` varchar(255) UNIQUE NOT NULL,
+  `telefone` varchar(255) UNIQUE NOT NULL,
   `email` varchar(255) UNIQUE NOT NULL
 );
 
