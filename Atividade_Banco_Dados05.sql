@@ -1,7 +1,7 @@
 CREATE TABLE Departamento
 (
   codigo INT PRIMARY KEY,
-  nome VARCHAR(50) NOT NULL
+  nome VARCHAR(50) NOT NULL, UNIQUE
 );
 
 CREATE TABLE Colaborador 
