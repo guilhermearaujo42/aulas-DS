@@ -8,7 +8,7 @@ CREATE TABLE Colaborador
 (
   codigo INT,
   nome VARCHAR(50) NOT NULL,
-  endereco VARCHAR(150),
+  endereco VARCHAR(150) NOT NULL,
   cod_departamento INT,
   CONSTRAINT pk_colaborador PRIMARY KEY (codigo),
   FOREIGN KEY (cod_departamento) REFERENCES Departamento(codigo)
