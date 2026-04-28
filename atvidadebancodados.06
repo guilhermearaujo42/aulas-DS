@@ -1,0 +1,22 @@
+CREATE TABLE Setor (
+  id_setor INT,
+  nome VARCHAR (10),
+  CONSTRAINT pk_setor PRIMARY KEY (id_setor)
+);
+  
+CREATE TABLE Produto (
+  id_produto INT,
+  nome VARCHAR (40),
+  preco FLOAT,
+  qtd INT,
+  id_setor INT,
+  CONSTRAINT pk_produto PRIMARY KEY (id_produto),
+  CONSTRAINT fk_produto FOREIGN KEY (id_setor) REFERENCES Setor(id_setor)
+);
+
+CREATE TABLE Funcionario (
+  id_funcionario INT,
+  nome VARCHAR (50),
+  funcao VARCHAR (20),
+  CONSTRAINT pk_funcionario PRIMARY KEY (id_funcionario)
+);
