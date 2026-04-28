@@ -1,0 +1,23 @@
+INSERT INTO Funcionario VALUES 
+(1, 'ana', 'caixa'),
+(2, 'bia', 'emapacotador'),
+(3, 'caio', 'entregador');
+SELECT * FROM Funcionario;
+
+INSERT INTO Setor VALUES
+(1, 'frutas'),
+(2, 'frios'),
+(3, 'cereais'),
+(4, 'limpeza');
+SELECT * FROM Setor;
+
+INSERT INTO Produto VALUES
+(1, 'amaciante', 4.50, 20, 4),
+(2, 'sabão em pó', 4, 30, 4),
+(3, 'banana', 0.25, 100, 1),
+(4, 'uva', 1, 50, 1),
+(5, 'arroz', 4, 50, 3),
+(6, 'farinha', 3, 75, 3),
+(7, 'queijo', 18.50, 25, 2),
+(8, 'presunto', 10.25, 25, 2);
+SELECT * FROM Produto;
