@@ -1,0 +1,29 @@
+.box {
+    width: 250px;
+    height: 100px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 240, 240);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#borda-solida {
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+}
+
+#borda-tracejada {
+    border: 3px dashed orange;
+    border-radius: 20px;
+}
+
+#borda-circular {
+    width: 150px;
+    height: 150px;
+    border: 4px dotted rgb(234, 0, 255);
+    border-radius: 50%;
+}

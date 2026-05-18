@@ -1,0 +1,23 @@
+h1 {
+    color: darkslategrey;
+    font-size: 32px;
+    text-align: center;
+}
+
+p {
+    color: darkgrey;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: white;
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+    background: white url("download.jpg") no-repeat fixed center;
+}

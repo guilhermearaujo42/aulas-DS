@@ -1,0 +1,9 @@
+a :link{text-decoration: none; color: aqua;}
+
+a :visited{color: blueviolet;}
+
+a :hover{text-decoration: underline;color: chartreuse;}
+
+a :active{color: darkgreen;}
+
+a {font-weight: bold;}

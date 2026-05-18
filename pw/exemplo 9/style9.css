@@ -1,0 +1,54 @@
+.conteiner {
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.caixa-flutuante {
+    width: 150px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.limpar {
+    clear: both;
+}
+
+.caixa-a, .caixa-b, .caixa-c {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.caixa-b {
+    background-color: yellow;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.conteiner-pai {
+    position: relative;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.caixa-absoluta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+}
+
+.menu-fixo {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background: blue;
+    color: white;
+}

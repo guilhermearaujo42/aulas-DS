@@ -1,0 +1,105 @@
+.exemplo {
+    background-color: cadetblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #2c3e50;
+}
+
+.bloco { display: block;}
+.em-linha { display: inline;}
+.hibrido {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+}
+
+.invisivel { display: none;}
+
+.menu-container {
+    position: relative;
+    width: 200px;
+    font-family: sans-serif;
+}
+.botao {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+.lista-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ffff;
+    border: 1px solid #bdc3c7;
+    box-shadow: 0px 4px 8px #000;
+    z-index: 10;
+}
+.lista-links-a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+.menu-container:houver .lista-links{
+    display: block;
+}
+.lista-links a:houver {
+    background-color: aquamarine;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 400px;
+}
+.card {
+    width:  100px;
+    height: 100px;
+    background-color: rgb(127, 193, 255);
+    color: #eee;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-especial {
+    align-self: flex-start;
+    background-color: red;
+    order: -1;
+}
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        background-color: blue;
+    }
+    50% {
+        transform: scale(1.2);
+        background-color: red;
+    }
+    100% {
+        transform: scale(1);
+        background-color: blue;
+    }
+}
+.caixa-viva {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    border-radius: 10px;
+    animation-name: pulsar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
